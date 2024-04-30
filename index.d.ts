@@ -1,5 +1,9 @@
 declare module 'react-native-version-number' {
-  export const appVersion: string
-  export const buildVersion: string
-  export const bundleIdentifier: string
+  const VersionNumber = {
+    appVersion: string,
+    buildVersion: string,
+    bundleIdentifier: string 
+  }
+
+  export default VersionNumber;
 }
